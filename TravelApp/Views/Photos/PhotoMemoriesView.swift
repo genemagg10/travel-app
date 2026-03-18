@@ -213,7 +213,7 @@ struct PhotoDetailView: View {
 
                     VStack(alignment: .leading, spacing: 12) {
                         HStack {
-                            Label(photo.dateTaken, style: .date)
+                            Text(photo.dateTaken, style: .date)
                             Spacer()
                             if !photo.locationName.isEmpty {
                                 Label(photo.locationName, systemImage: "mappin")
